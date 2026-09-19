@@ -1,0 +1,26 @@
+# Lua Maker Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core
+requests>=2.31.0
+psutil>=5.9.0
+colorama>=0.4.6
+
+# Memory/Process (Windows)
+pymem>=1.1.0; sys_platform == "win32"
+pywin32>=306; sys_platform == "win32"
+
+# Memory/Process (Linux)
+python-ptrace>=0.9.8; sys_platform == "linux"
+
+# Compilation/Building
+pyinstaller>=6.0.0
+setuptools>=68.0.0
+wheel>=0.41.0
+
+# Lua
+lupa>=2.1
+
+# Web/Research
+aiohttp>=3.9.0
+beautifulsoup4>=4.12.0
